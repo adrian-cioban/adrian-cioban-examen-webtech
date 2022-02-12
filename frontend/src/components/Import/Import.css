@@ -1,0 +1,31 @@
+.import-container {
+  display: flex;
+  justify-content: center;
+}
+
+.import-form {
+  height: 500px;
+  width: 500px;
+  background-color: gainsboro;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+}
+
+.import-form .add {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.import-form textarea {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,34 @@
+.filter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-form {
+  height: 250px;
+  width: 200px;
+  background-color: gainsboro;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.filter-form .id {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-form .deadline {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

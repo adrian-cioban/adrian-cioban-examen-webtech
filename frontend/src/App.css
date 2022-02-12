@@ -1,0 +1,28 @@
+.navigationBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.navigationBar li {
+  float: left;
+}
+
+.navigationBar li button {
+  border: none;
+  background-color: transparent;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigationBar li button:hover {
+  background-color: #111;
+}

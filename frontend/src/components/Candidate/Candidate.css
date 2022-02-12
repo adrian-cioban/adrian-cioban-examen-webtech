@@ -1,0 +1,45 @@
+.candidate {
+  height: 500px;
+  width: 200px;
+  background-color: lightblue;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.candidate .nume {
+  height: 80px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightskyblue;
+  border-radius: 5px;
+}
+
+.candidate .cv {
+  height: 250px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightsteelblue;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.candidate .email {
+  height: 80px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightsteelblue;
+  border-radius: 5px;
+}
